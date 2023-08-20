@@ -1,6 +1,7 @@
 #include <iostream>
+#include "CPU.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    CPU cpu;
     return 0;
 }
