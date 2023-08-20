@@ -3,4 +3,4 @@ project(6502_emulator)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(6502_emulator main.cpp CPU.cpp CPU.h)
+add_executable(6502_emulator main.cpp CPU.cpp CPU.h Memory.cpp Memory.h)

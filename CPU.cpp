@@ -3,3 +3,8 @@
 //
 
 #include "CPU.h"
+#include "memory.h"
+
+CPU::CPU(Memory mem) {
+    memory = mem;
+}
